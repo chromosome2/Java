@@ -11,7 +11,14 @@ public class String5 {
 		}
 		System.out.println(ssn.substring(0,7)+star);
 		
+		String newSsn=ssn.substring(0,7)+"*******";
+		System.out.println(newSsn);
 		
+		String ori="Java Programing";
+		String low=ori.toLowerCase();
+		String up=ori.toUpperCase();
+		System.out.println(low);
+		System.out.println(up);
 	}
 
 }
